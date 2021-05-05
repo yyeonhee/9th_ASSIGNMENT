@@ -16,7 +16,6 @@
 .box {
     border: 1px solid #e4e4e4;background-color: #fbfbfb;
     width: 1000px;
-    margin: 0 auto;
     padding: 10px 30px;
 }
 
@@ -30,7 +29,6 @@
     font-size: 14px;
     font-weight: bold;
     color: #000;
-    margin-left: 80px;
 }
 
 .data {
@@ -80,4 +78,8 @@ textarea {
 }
 #day {
     width: 320px;
+}
+
+.container {
+    margin-left: 100px;
 }
