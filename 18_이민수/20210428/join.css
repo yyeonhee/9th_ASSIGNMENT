@@ -89,3 +89,7 @@ input {
     height: 50px;
     margin: 5px 0px;
 }
+
+.container {
+    margin-left: 30%;
+}
