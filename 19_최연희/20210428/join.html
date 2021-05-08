@@ -6,24 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JoinPage</title>
     <link rel="stylesheet" href="join.css">
-
-<body>
+<body>  
     <header>
-        <p class="text" id="joinpage">회원가입</p>
+        <p class="title" id="joinpage">회원가입</p>
     </header>
 
-    <div>
+    <div id = "box">
         <form method="post">
-                <p class="text">아이디</p>
-                    <input type="text" name="id" id="userid"> 
-            
-                    <p class="text">비밀번호</p>
-                    <input type="password" name="password" id="userpw"> 
-            
-                    <p class="text">이름</p>
-                    <input type="text" name="name" id="username"> 
-            
-                    <p class="text">생년월일</p>
+                <p class="title">아이디</p>
+                    <input type="text" name="id" id="userid" class="content"> 
+                    <p class="title">비밀번호</p>
+                    <input type="password" name="password" id="userpw" class="content"> 
+                    <p class="title">이름</p>
+                    <input type="text" name="name" id="username" class="content"> 
+                    <p class="title">생년월일</p>
                     <select name="birth" id="birth">
                         <option value=""disabled selected hidden>년도</option> 
                         <option>1998</option>
@@ -68,23 +64,23 @@
                         <option>15</option>
                     </select>
             
-                <p class="text">성별</p>
+                <p class="title">성별</p>
                 <p class="left">
-                <input type="radio" name="gender" value="male" id="male" /> 
+                <input type="radio" name="gender" value="male" class="sex" /> 
                 <span class="gender">남자</span>
-                <input type="radio" name="gender" value="female" id="female"/>
+                <input type="radio" name="gender" value="female" class="sex"/>
                 <span class="gender">여자</span>
                 </p>
-
-                <p class="text">이메일</p>
-                <input type="text" name="email" id="email" placeholder="이메일 주소에 '@'를 포함해주세요."> 
+                
+                <p class="title">이메일</p>
+                <input type="text" name="email" id="email" class="content" placeholder="이메일 주소에 '@'를 포함해주세요."> 
             
-                <p class="text">휴대전화</p>
-                <input type="text" name="phonenumber" id="usernum" placeholder="숫자만 입력해주세요."> 
+                <p class="title">휴대전화</p>
+                <input type="text" name="phonenumber" id="usernum" class="content" placeholder="숫자만 입력해주세요."> 
                 <button id="num">인증번호 받기</button> 
                 <input type="text" name="number" id="usernumber" placeholder="인증번호를 입력해주세요."> 
             
-                <p class="text">취미</p>
+                <p class="title">취미</p>
                 <p class="left">
                 <input type="checkbox" name="hobby" value="exercise" class="checkbox"/>
                 <span class="hobby">운동</span>
@@ -104,8 +100,8 @@
                 <span class="hobby">독서</span>
             </p>
 
-                <p class="text">가입인사</p>
-                <input type="text" name="greeting" id="greeting"> <br>
+                <p class="title">가입인사</p>
+                <input type="text" name="greeting" id="greeting" class="content"> <br>
                 <button type="submit" id="join">가입하기</button> 
         </form>
     </div>

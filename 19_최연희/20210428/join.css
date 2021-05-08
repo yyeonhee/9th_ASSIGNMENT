@@ -5,16 +5,16 @@
     font-style: normal;
 }
 
-#joinpage, .text{
+.title{
     font-family: 'BBTreeGB';
 }
 
 #joinpage{
-    width:1050px;
+    width:1000px;
     margin: 0 auto;
 }
 
-div{
+#box{
     width:1000px;
     margin: 0 auto 0 auto;
     border: 1px;
@@ -30,12 +30,7 @@ p{
     text-align: left;
 }
 
-#userid, #userpw, #username, #email, #usernum, #greeting{
-    font-size: 12px;
-    color: #000;
-}
-
-#male, #female {
+.sex {
     font-size: 12px;
     color: #000;
 }
@@ -58,6 +53,11 @@ p{
 }
 
 .checkbox{
+    font-size: 12px;
+    color: #000;
+}
+
+.content{
     font-size: 12px;
     color: #000;
 }
