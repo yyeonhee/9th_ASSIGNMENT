@@ -6,6 +6,7 @@ body{
     margin: 0px;
     font-family: 'Noto Sans KR', sans-serif;
     color: #FFFFFF;
+    overflow: hidden;
 }
 
 
@@ -18,18 +19,18 @@ body{
 
     background-color: #202020;
     border: none;
-
+}
+.header img {
+    height: 24px;
+    width: 24px;
+}
+.header_content {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 
-    padding-left: 25px;
-    padding-right: 25px;
-}
-.header img {
-    height: 24px;
-    width: 24px;
+    padding: 7px 25px 0px 25px;
 }
 
 .main_logo_tab {
@@ -64,6 +65,7 @@ body{
 
     background-color: #121212;
     font-size: 15px;
+    color: #FFFFFF;
 }
 .search_btn {
     height: 32px;
@@ -127,7 +129,7 @@ body{
 /* 사이드 */
 
 .side {
-    width: 240px;
+    width: 300px;
     height: 100%;
 
     background-color: #212121;
@@ -137,6 +139,8 @@ body{
 
     display: flex;
     flex-direction: column;
+
+    overflow: auto;
 }
 #menu_name {
     color: #909090;
@@ -171,6 +175,18 @@ body{
     display: flex;
     justify-content: flex-end;
 }
+.information_tab, .terms_tab {
+    color: #aaaaaa;
+    font-size: 14px;
+    
+    margin: 5px 20px 15px 0px;
+}
+.copyright {
+    color: #909090;
+    font-size: 13px;
+    
+    margin: 5px 20px 15px 0px;
+}
 
 
 
@@ -185,6 +201,8 @@ body{
 
     display: flex;
     flex-direction: column;
+
+    overflow: hidden;
 }
 
 .content_row {
@@ -214,11 +232,12 @@ body{
 #running_time {
     position: absolute;
 
-    height: 10px;
+    height: 20px;
     width: 30px;
 
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     margin-right: 3px;
+    padding-left: 5px;
     border: none;
     border-radius: 5px;
 
