@@ -119,23 +119,19 @@ body {
 /* side */
 #side {
   flex-basis: 23%;
-  justify-content: center;
-  align-items: center;
   display: flex;
   flex-flow: column wrap;
-  min-width: 150px;
+  min-width: 170px;
 }
 .side-menu {
   display: flex;
   width: 100%;
   flex-flow: column wrap;
   align-items: center;
-  margin: 1vh;
-  /* background-color: pink; */
+  margin: 1vh 0vh;
 }
 .menu {
   display: flex;
-  /* background-color: antiquewhite; */
   width: 100%;
   height: 6vh;
   line-height: 6vh;
@@ -155,7 +151,7 @@ body {
 #login-menu {
   display: flex;
   width: 80%;
-  height: 10vh;
+  height: 15vh;
   flex-wrap: wrap;
   align-items: flex-start;
 }
