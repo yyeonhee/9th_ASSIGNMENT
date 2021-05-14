@@ -1,3 +1,5 @@
+@import "./reset.css";
+
 @font-face {
   font-family: "IBMPlexSansKR-Regular";
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff")
@@ -67,13 +69,17 @@ body {
   width: 100%;
   border: none;
 }
-.search-bar-right {
-  background-color: rgba(211, 211, 211, 0.473);
-  padding: 1vh 3vh;
+#search-bar-right {
+  border: 0;
+  outline: 0;
+  padding: 0.8vh 3vh;
+  height: 100%;
 }
-.voice {
-  display: flex;
-  padding-left: 2vh;
+#voice {
+  border: 0;
+  outline: 0;
+  background-color: transparent !important;
+  padding-left: 3%;
 }
 
 /* icons-right */
@@ -100,33 +106,36 @@ body {
   padding: 0.7vh;
   justify-content: space-around;
   align-items: center;
+  min-width: 75px;
 }
 
 /* container */
 .container {
   display: flex;
-  height: 90vh;
   width: 100%;
   border: 1px solid black;
 }
 
 /* side */
 #side {
-  flex-basis: 25%;
+  flex-basis: 23%;
   justify-content: center;
   align-items: center;
   display: flex;
   flex-flow: column wrap;
+  min-width: 150px;
 }
 .side-menu {
   display: flex;
   width: 100%;
-  flex: 1 1 30;
   flex-flow: column wrap;
   align-items: center;
+  margin: 1vh;
+  /* background-color: pink; */
 }
 .menu {
   display: flex;
+  /* background-color: antiquewhite; */
   width: 100%;
   height: 6vh;
   line-height: 6vh;
@@ -146,7 +155,8 @@ body {
 #login-menu {
   display: flex;
   width: 80%;
-  flex-flow: column wrap;
+  height: 10vh;
+  flex-wrap: wrap;
   align-items: flex-start;
 }
 .side-menu .login {
@@ -157,6 +167,7 @@ body {
   padding: 0.7vh;
   justify-content: space-around;
   align-items: center;
+  min-width: 75px;
 }
 #popular-menu {
   display: flex;
@@ -164,26 +175,25 @@ body {
   flex-flow: column wrap;
   align-items: flex-start;
 }
+p {
+  margin-bottom: 1.5vh;
+}
+
 /* main */
 #main {
+  display: flex;
   flex-basis: 80%;
+  flex: 1;
   background-color: lightgray;
   justify-content: center;
   align-items: center;
-  display: flex;
-  flex-flow: column wrap;
-}
-.contents {
-  display: flex;
-  width: 100%;
-  flex: 1;
-  justify-content: center;
-  align-items: center;
+  flex-flow: row wrap;
 }
 .content {
   display: flex;
   height: 26vh;
-  flex: 1 1 30%;
+  width: 330px;
+  flex: 1 1 30;
   margin: 1vh 1vh 1vh 3vh;
   border: 3px solid red;
   background-color: rgba(255, 145, 102, 0.767);
