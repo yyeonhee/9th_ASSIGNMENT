@@ -12,4 +12,4 @@ for i in result:
     else:
         cnt=0
 
-print("총점은", sum)
+print(f"총점은 {sum}")

@@ -2,7 +2,7 @@
 
 n = int(input("숫자를 입력하세요 >> "))
 result=1
-print(n,"! = ", end='')
+print(f"{n} ! = ", end='')
 while (True):
     print(f"{n}", end='')
     result*=n
@@ -10,4 +10,4 @@ while (True):
     if(n==0):
         break
     print("x", end='')
-print(" =", result)
+print(f" = {result}")
