@@ -10,5 +10,7 @@ while True :
 
     if key == "cake" :
         print("===result===")
-        print(dictionary.values())
+        for d in dictionary.values():
+            print(d)
+        # print(dictionary.values())
         break 
