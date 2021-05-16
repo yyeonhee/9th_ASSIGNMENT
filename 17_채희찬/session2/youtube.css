@@ -14,7 +14,6 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
- 
 }
 #header div{
     border: 2px solid rgba(190, 38, 46, 0.726);
@@ -35,10 +34,11 @@ body{
 }
 #centerheader{
     display: flex;
+    width: 650px;
 }
 .search{
-    width: 400px;
-    min-width: 70px;
+    flex: 100%;
+    min-width: 85px;
 }
 #rightheader{
     display: flex;
