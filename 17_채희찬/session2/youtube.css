@@ -14,6 +14,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+ 
 }
 #header div{
     border: 2px solid rgba(190, 38, 46, 0.726);
@@ -37,6 +38,7 @@ body{
 }
 .search{
     width: 400px;
+    min-width: 70px;
 }
 #rightheader{
     display: flex;
@@ -56,6 +58,7 @@ body{
     display: flex;
     flex-flow: column;
     overflow-y:scroll;
+    min-width: 230px;
 }
 #subscriptions, #basic-setting, #more-from-youtube{
     border: 3px solid rgb(72, 99, 255);
