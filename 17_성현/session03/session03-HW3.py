@@ -2,7 +2,7 @@ manuf = [1000,5000,7500,10000,2500,3000,4500,6000]
 for num in range(len(manuf)) :
     print(num,'번째 상품 가격: ',num)
 print('가지고 있는 돈을 입력하세요 >>', end=' ')
-money = int(input())
+money = int(input()) 
 sum = 0
 for num in range(len(manuf)) :
     sum +=manuf[num]

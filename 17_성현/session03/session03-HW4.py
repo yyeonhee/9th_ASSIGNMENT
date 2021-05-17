@@ -2,7 +2,7 @@ dic = {}
 print('===insert===')
 num =0
 while(True):
-    print('key >> ',end='') 
+    print('key >> ',end='')
     key = input()
     print('value >> ',end='')
     value = input()

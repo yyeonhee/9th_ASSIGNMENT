@@ -1,5 +1,5 @@
 print("숫자를 입력하세요 >>", end=' ') 
-num1 = int(input())
+num1 = int(input()) 
 sum = 1 
 print(num1,'! =', end=' ')
 while(True) :

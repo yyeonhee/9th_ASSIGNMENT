@@ -21,7 +21,7 @@ while(correctnum!=problemcount):                #계산한 횟수가 입력한 �
             plusscore+=1                        #   추가 점수는 계속 맞출 경우 1씩 증가한다.
             problemst=1                         #   사용자 상태는 1인 연속으로 맞추는 상태가 된다.
         elif(correct=='O' and problemst==0):    # 2. 사용자가 문제를 맞췄지만 이전에 틀렸거나 이번이 첫 문제인 경우
-            score+=1                            # 기본 점수를 획득한다.
+            score+=1                            # 기본 점수를 획득한다. 
             problemst=1                         # 이번에 문제를 맞췄기 때문에 사용자 상태는 이제 1이 된다.
         elif(correct=='X'):                     # 3. 사용자가 문제를 틀렸을 경우
             problemst=0                         # 사용자 상태는 0이 된다. 다음 문제시 추가 점수를 획득하지 못한다.
