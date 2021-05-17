@@ -3,6 +3,7 @@
 n = int(input("숫자를 입력하세요 >> "))
 result=1
 print(f"{n} ! = ", end='')
+
 while (True):
     print(f"{n}", end='')
     result*=n
