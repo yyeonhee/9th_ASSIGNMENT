@@ -1,3 +1,5 @@
+@import "reset.css";
+
 .header {
     height: 50px;
     width: 100%;
@@ -39,17 +41,23 @@
     width: 20%;
     border: 1px solid black;
     display: flex;
+    padding-top: 10px;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
+    /* align-content: space-between; */
+    /* align-items: center; */
   }
+
+  .ulspan{
+    display: flex;
+    height: 30px;
+  }
+
 
   .side ul li {
     display: flex;
     width: 300px;
     height: 40px;
-    list-style:none;
-    text-decoration: none;
   }
 
   .side ul li a{
@@ -85,6 +93,7 @@
     width: 300px;
     height: 200px;
     margin-top: 10px;
+    margin-left: 5px;
     border: 1px solid black;
     
   }
