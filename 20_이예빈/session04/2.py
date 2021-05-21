@@ -10,7 +10,7 @@ for r in range(5):
         k.append(num)
         num+=1
     list.append(k)
-    print(k) # 각 열의 5개 요소를 출력
+    # print(k) # 각 열의 5개 요소를 출력
 
 for r in range(5):
     for c in range(5):
