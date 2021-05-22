@@ -5,4 +5,5 @@ answer = 0
 for i in coin:
    answer += exchange // i
    exchange %= i
+
 print(answer)
