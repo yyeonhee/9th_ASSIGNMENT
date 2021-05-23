@@ -1,12 +1,15 @@
 a = []
+r = 0
 
-for i in range():
+for i in range(5):
     b = []
-    for j in range():
-        b.append(i)
-        i += 1
-    
+    for j in range(5):
+        b.append(r)
+        r += 1
+    i += 5
 
     a.append(b)
 
-print(a)
+for c in range(5):
+    print(a[c][1],a[c][3])
+    c += 1
