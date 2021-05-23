@@ -5,25 +5,11 @@
 
 userInput=int(input()) # 금액 입력 받음
 change=int(1000-userInput) # 전체 거스름돈 액수
+money=[500, 100, 50, 10, 5, 1]
 cnt=0 # 잔돈의 개수 초깃값==0
 
-# 500원 개수
-cnt+=change//500 # 처음에 change를 500으로 나눈 몫을(500원개수) 누적하여 합산
-change%=500 # 500원으로 나눈 후 나머지를 저장
+for m in money:
+    cnt+=change//m # change를 money리스트 안의 금액으로 나눈 몫을 누적하여 합산
+    change%=m # money 요소로 나눈 나머지를 저장
 
-# 100원 개수
-cnt+=change//100 
-change%=100
-
-# 50원 개수
-cnt+=change//50
-change%=50
-
-# 10원 개수
-cnt+=change//10
-change%=10
-
-# 1원 개수
-cnt+=change
-
-print(cnt) # 총 거스름돈 개수 출력
+print(cnt)
