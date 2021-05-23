@@ -12,4 +12,3 @@ for i in range(5):
 
 for c in range(5):
     print(a[c][1],a[c][3])
-    c += 1

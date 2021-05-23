@@ -57,9 +57,12 @@ main{
   flex-direction: row;
 }
 .content p{
-  font-size:15px;
+  font-size:13px;
   margin: 1px;
 }
 .content span{
-  font-size:13px;
+
+  margin: 45px;
+  font-size:12px;
+
 }

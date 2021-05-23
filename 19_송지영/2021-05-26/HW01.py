@@ -11,4 +11,3 @@ while charge != 0 : #남은 거스름돈이 0이 될 때까지
     i += 1
 
 print(num)
-
