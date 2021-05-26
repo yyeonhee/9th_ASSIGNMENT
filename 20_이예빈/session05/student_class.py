@@ -62,8 +62,7 @@ while True:
         StudentList.append(s)
     
     elif n==2:
-        sName=input("검색할 학생 이름 입력 : ")
-        StudentList.find(sName)
+        sName=input("학생 이름 입력 : ")
         for StudName in StudentList:
             if StudName.getName()==sName:
                 print(StudName.getName(), "의 성적 평균 : ", StudName.getAvg())
