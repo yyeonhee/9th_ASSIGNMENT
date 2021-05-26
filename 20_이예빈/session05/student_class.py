@@ -1,6 +1,8 @@
 # 학생 정보 관리 프로그램
 # 학생 정보를 담은 Student 클래스
+# 단! 무조건 '입력'을 받아서 정보들을 저장할 수 있는 형태 ( + 나중에... 미리 입력된 정보 바탕으로 정보 저장하기 / 값 수정하기)
 # 생성되는 Student 객체들은 StudentList 에 리스트로 나열하여 저장
+
 # Student 클래스의 필드: name, birth, age, gender, grade
 # Student 클래스의 메소드: __init__ setInit, getAvg, getName, printStud 
 
