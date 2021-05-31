@@ -8,9 +8,6 @@ for i in range(5):           #5X5 이차원 리스트 생성
         num += 1             
     list.append(e)           #list에 e 추가
     i += 5                   #e리스트 입력마다 i 5씩 증가
-    
-    
-
 # print(list)
 
 for k in list:              #list만큼 반복
