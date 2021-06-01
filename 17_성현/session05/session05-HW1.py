@@ -1,6 +1,6 @@
 class intro:
     favoriteThings = ['코딩', '게임']
-    global name
+    global name 
     def __init__(self):
         print('아이엠 그라운드 자기소개 하기 !')
 
