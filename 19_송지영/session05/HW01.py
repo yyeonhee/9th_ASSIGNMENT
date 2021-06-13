@@ -23,4 +23,4 @@ class Cafe:
 order = Cafe()
 drink = input()
 desert = input()
-order.Serve(drink, desert)
+order.Serve(drink,desert)
