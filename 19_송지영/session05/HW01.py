@@ -8,9 +8,9 @@ class Cafe:
         print("주문하시겠습니까?")
 
     def Mydrink(dirnk):
-        Cafe.drink = drink
+        Cafe.drink = drink 
         print("음료는"+drink+"마실게요")
-    
+     
     def Mydesert(desert):
         Cafe.desert = desert
         print("디저트는"+desert+"주세요")
