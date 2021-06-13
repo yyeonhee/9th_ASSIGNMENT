@@ -1,27 +1,48 @@
 class Schedule:
-    def __init__(self, day, title, start):
-        self.day = day
-        self.title = title
-        self.start = start
+    def __init__(self):
+        self.__day = ""
+        self.__title = ""
+        self.__start = 0
 
+    @property
+    def day(self):
+        return self.__day
+
+    @property
+    def title(self):
+        return self.__title
+
+    @property
+    def start(self):
+        return self.__start
+
+    @day.setter
+    def day(self, day):
+        self.__day = day
+
+    @title.setter
+    def title(self, title):
+        self.__title = title
+
+    @start.setter
+    def start(self, start):
+        self.__start = start
+    
     def showSchedule(self):
-        print(f'{self.day}요일 일정 : {self.start}시에 {self.title}')
-
-    def reschedule(self, option, time):
-        start = self.start
-        if option == '+':
-            self.start += time
-            print(f'{self.day}요일 {start}시에 예정되어 있던 {self.title} 시간이 {self.start}시로 미뤄졌습니다.')
-        elif option == '-':
-            self.start -= time
-            print(f'{self.day}요일 {start}시에 예정되어 있던 {self.title} 시간이 {self.start}시로 앞당겨졌습니다.')
+        print(f'{self.__day}요일 일정 : {self.__start}시에 {self.__title}')
 
 
-PS = Schedule("화", "알고리즘 스터디", 22)
-Lion = Schedule("수", "멋사 세션", 19)
-
+PS = Schedule()
+PS.day = "화"
+PS.title = "알고리즘 스터디"
+PS.start = 22
 PS.showSchedule()
+
+Lion = Schedule()
+Lion.day = "수"
+Lion.title = "멋사 세션"
+Lion.start = 19
 Lion.showSchedule()
 
-PS.reschedule('-', 2)
-Lion.reschedule('+', 1)
+PS.start = 2
+PS.showSchedule()
