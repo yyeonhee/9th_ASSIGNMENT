@@ -27,7 +27,7 @@ class Schedule:
     @start.setter
     def start(self, start):
         self.__start = start
-    
+
     def showSchedule(self):
         print(f'{self.__day}요일 일정 : {self.__start}시에 {self.__title}')
 
@@ -45,4 +45,4 @@ Lion.start = 19
 Lion.showSchedule()
 
 PS.start = 2
-PS.showSchedule()
+PS.showSchedule() 
